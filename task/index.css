@@ -12,7 +12,7 @@
 .head .image{
     width: 259px;
     height: 110px;
-    background-image: url(../head-png1.png);
+    background-image: url(./head-png1.png);
     float:left;
 }
 .ind{
