@@ -53,14 +53,103 @@
             margin-top: 20px;
             border-bottom: 2px solid black;
         }
+        input{
+            outline: none;
+        }
         .input_box{
             width: 416px;
             height: 53px;
             font-size: 20px;
-            margin-top: 10px;
+            margin-top: 20px;
             margin-left: 28px;
             text-indent: 10px;
             border: 1px #d5d5d5 solid;
+            border-radius: 8px;
+        }
+        .color1{
+            background-color: #d0d3d9; 
+        }
+        [type=submit]:hover{
+            background-color: royalblue;
+            color: white;
+        }
+        .banner a{
+            font-size: 20px;
+            margin-top: 30px;
+            margin-left: 28px;
+            display: block;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: blue;
+        }
+        .zc_bottom{
+            width: 477px;
+            height: 94px;
+            background-color: #f0f0f0;
+            float: left;
+            margin-top: 20px;
+        }
+        .box{
+            width: 200px;
+            height: 40px;
+            float: left;
+            margin-left: 15px;
+            margin-top: 6px
+        }
+        .box .wx{
+            width: 30px;
+            height: 25px;
+            background: url("zc_b_2.png") no-repeat;
+            background-position: center;
+            float: left;
+            margin-top: 10px;
+            object-fit: cover;
+            border-radius:5px;
+        }
+        .box .wx_p{
+            display: block;
+            float: left;
+            font-size: 16px;
+            line-height: 40px;
+            color: #506880;
+        }
+        .box .zfb{
+            width: 25px;
+            height: 27px;
+            background: url("zc_b_1.png") no-repeat;
+            background-position: center;
+            float: left;
+            margin-top: 7px;
+            object-fit: cover;
+            border-radius:6px;
+        }
+        .box .zfb_p{
+            display: block;
+            float: left;
+            font-size: 16px;
+            line-height: 40px;
+            color: #506880;
+        }
+        .pp{
+            font-size: 16px;
+            line-height: 40px;
+            float: left;
+            color: #506880;
+            display: inline-block;
+        }
+        .bottoms{
+            height: 266px;
+            color: #ffffff;
+            padding-top: 137px;
+            padding-left: 360px;
+            box-sizing: border-box;
+        }
+        .bs{
+            width: 1203px;
+            height: 126px;
+            border-top: 2px solid #d5d5d5;
         }
     </style>
     <script>
@@ -74,9 +163,28 @@
     </div>
     <div class = "banner con">
         <div class = "zc_box">
-            <p class = "p_1">注册安利会员</p>
-            <input type="text" class = "input_box" placeholder="请输入用户名">
+            <p class = "p_1">手机快速注册</p>
+            <input type="text" class = "input_box" placeholder="请输入手机号">
+            <input type="email" class = "input_box" placeholder="请输入邮箱">
+            <input type="password" class = "input_box" placeholder="请输入密码">
+            <input type="submit" class = "input_box color1" value="注册">
+            <div><a href="">忘记密码</a></div>
+            <div class="zc_bottom">
+                <div class = "box">
+                    <div class = "wx"></div>
+                    <p class = "wx_p">微信快捷扫码登录></p>
+                </div>
+                <div class = "box">
+                    <div class="zfb"></div>
+                    <p class="zfb_p">支付宝快捷扫码登录></p>
+                </div>
+                <p class ="box pp"> 用户签订协议</p>
+                <p class ="box pp"> 公司隐私条款</p>
+            </div>
         </div>
+    </div>
+    <div class ="bottoms con">
+        <div class="bs"></div>
     </div>
 </body>
 </html>
