@@ -62,7 +62,7 @@
 .ind2 .left{
     width: 17px;
     height: 30px;
-    background: url(../png2.png) no-repeat center;
+    background: url(./png2.png) no-repeat center;
     float: left;
 }
 
@@ -92,7 +92,7 @@
 .banner1{
     width: 1262px;
     height: 380px;
-    background: url(../banner-png1.png);
+    background: url(./banner-png1.png);
     margin: 0 auto;
 }
 
@@ -105,19 +105,19 @@
 .img1{
     width: 305px;
     height: 165px;
-    background: url(../list-png1.png);
+    background: url(./list-png1.png);
 
 }
 .img2{
     width: 305px;
     height: 165px;
-    background: url(../list-png2.png);
+    background: url(./list-png2.png);
 
 }
 .img3{
     width: 305px;
     height: 165px;
-    background: url(../list-png3.png);
+    background: url(./list-png3.png);
 
 }
 .pag{
@@ -143,7 +143,7 @@
     width: 1262px;
     height: 205px;
     margin: 0 auto;
-    background: url(../foot.png1.png) repeat;
+    background: url(./foot.png1.png) repeat;
     border-top: 1px solid #cccccc;
 }
 .foot .foot1{
