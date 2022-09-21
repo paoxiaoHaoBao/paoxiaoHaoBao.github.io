@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 960px;
+    margin: 0 auto;
+}
+.head{
+    height: 110px;
+}
+.head .image{
+    width: 259px;
+    height: 110px;
+    background-image: url(../head-png1.png);
+    float:left;
+}
+.ind{
+    float: right;
+    
+}
+.ind li{
+    float: left;
+}
+.ind ul{
+    height: 44px;
+    line-height: 44px;
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+.ind li a{
+    font-size: 12px;
+    color: #c7b2ab;
+    border-right: #c7b2ab 2px solid;
+    padding: 0 12px;
+}
+.ind .col{
+    color: #ed164b;
+}
+
+.ind .fina{
+    padding-right: 0;
+    border: none;
+}
+
+.ind2{
+    float: right;
+    width: 220px;
+    height: 30px;
+    border: 1px #c7b2ab solid;
+    padding-left: 15px;
+}
+.ind2 input{
+    float: left;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+  
+}
+.ind2 .left{
+    width: 17px;
+    height: 30px;
+    background: url(../png2.png) no-repeat center;
+    float: left;
+}
+
+
+/*接下来是banner部分*/
+
+.banner{
+    width: 1262px;
+    height: 53px;
+    background-color: #11375f;
+    margin: 0 auto;
+    
+}
+.banner .con .colors{
+    color: #ffffff;
+}
+.banner ul{
+    list-style-type: none;
+}
+.banner li{
+    color: #ffffff;
+    float: left;
+    font-size: 18px;
+    margin-right: 76px;
+    line-height: 53px;
+}
+.banner1{
+    width: 1262px;
+    height: 380px;
+    background: url(../banner-png1.png);
+    margin: 0 auto;
+}
+
+.list{
+    height: 300px;
+    margin-top: 35px;
+    
+
+}
+.img1{
+    width: 305px;
+    height: 165px;
+    background: url(../list-png1.png);
+
+}
+.img2{
+    width: 305px;
+    height: 165px;
+    background: url(../list-png2.png);
+
+}
+.img3{
+    width: 305px;
+    height: 165px;
+    background: url(../list-png3.png);
+
+}
+.pag{
+    width: 277px;
+    height: 47px;
+    padding-left: 28px;
+    line-height: 47px;
+    font-size: 16px;
+    color: #000000;
+}
+.min-list{
+    width: 305px;
+    height: 213px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-right: 19px;
+
+}
+.last{
+    margin-right: 0;
+}
+.foot{
+    width: 1262px;
+    height: 205px;
+    margin: 0 auto;
+    background: url(../foot.png1.png) repeat;
+    border-top: 1px solid #cccccc;
+}
+.foot .foot1{
+    height: 84px;
+    width: 960px;
+    margin-top: 30px;
+}
+.foot .foot1 ul{
+    list-style-type: none;
+    padding-left: 28px;
+}
+.foot li{
+    color: #336699;
+    font-size: 14px;
+    float:left;
+    line-height: 28px;
+    display: block;
+    width: 230px;
+}
+.bottom{
+    border-top: 1px #cccccc solid;
+    height: 36px;
+    color: #666666;
+    padding-left: 29px;
+    padding-top: 26px;
+}
+.blue{
+    color: #2788cc;
+}
