@@ -18,7 +18,6 @@
         }
         .header{
             height: 130px;
-            
         }
         .header .header_back{
             width: 170px;
@@ -191,6 +190,9 @@
     </style>
 
     <script>
+        const submit = () => {
+            location.href = "submit.html"
+        }
         function checkPhone(phone) {
             //验证电话号码手机号码，包含至今所有号段? ?
             var ab = /^[1][3,4,5,7,8][0-9]{9}$/;
@@ -222,7 +224,7 @@
             onChange="checkPhone(this.value)" placeholder="请输入手机号">
             <input type="email" class = "input_box" onblur="checkEmail(this.value);" placeholder="请输入邮箱">
             <input type="password" class = "input_box" placeholder="请输入密码">
-            <input type="submit" class = "input_box color1" value="注册">
+            <input type="submit" onclick="submit()" class = "input_box color1" value="注册">
             <div><a href="">忘记密码</a></div>
             <div class="zc_bottom">
                 <div class = "box">
